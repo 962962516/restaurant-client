@@ -1,0 +1,19 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+#app {
+    width: 100vw; /* 100%视窗宽度 */
+    height: 100vh; /* 100%视窗高度 */
+    /* 其他样式属性 */
+}
